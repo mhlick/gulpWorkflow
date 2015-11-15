@@ -1,7 +1,7 @@
 {
-  "name": "website",
+  "name": "Gulp Front End Workflow",
   "version": "1.0.0",
-  "description": "Website for MHLIC Media Dev",
+  "description": "build an awesome Front End Workflow",
   "main": "Gulpfile.js",
   "dependencies": {
     "gulp": "^3.9.0",
