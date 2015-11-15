@@ -29,7 +29,7 @@ gulp.task('watch', function() {
 
 //Clean up the build directory
 gulp.task('clean', function () {
-    return gulp.src('assets/**/*', {read: false})
+    return gulp.src('assets/', {read: false})
         .pipe(clean())
 });
 
