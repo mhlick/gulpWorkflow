@@ -1,0 +1,37 @@
+/*******************************************************************************
+ *
+ * Variables
+ *
+ ******************************************************************************/
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$fontFamilySansSerif:   'Roboto', sans-serif;
+$fontFamilySerif:       Georgia, "Times New Roman", Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$fontFamilyMonospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+$fontFamilyBase:        $fontFamilySansSerif;
+
+$fontSizeBase:          14px;
+$fontSizeLarge:         $fontSizeBase * 1.25; // ~18px
+$fontSizeSmall:         $fontSizeBase * 0.85; // ~12px
+
+$fontSizeH1:            $fontSizeBase * 2; // ~36px
+$fontSizeH2:            $fontSizeBase * 2.15; // ~30px
+$fontSizeH3:            $fontSizeBase * 1.7; // ~24px
+$fontSizeH4:            $fontSizeBase * 1.25; // ~18px
+$fontSizeH5:            $fontSizeBase;
+$fontSizeH6:            $fontSizeBase * 0.85; // ~12px
+
+$line-height-base:        1.428571429; // 20/14
+
+//== Colors
+//
+$brandGrey:             rgba(169, 178, 162, 1);
+$brandGreen:            rgba(43, 238, 210, 1);
+$brandBlue:             rgba(0, 130, 255, 1);
+$brandOrange:           rgba(255, 141, 0, 1);
+$brandMagenta:          rgba(178, 0, 131, 1);
